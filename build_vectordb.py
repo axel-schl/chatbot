@@ -41,4 +41,5 @@ if __name__ == '__main__':
     chunk_overlap = args.co
     if chunk_size and chunk_overlap:
         build_vectordb(name=file_name,chunk_size=chunk_size,chunk_overlap=chunk_overlap)
-    build_vectordb(file_name)
+    else:
+        build_vectordb(file_name)
