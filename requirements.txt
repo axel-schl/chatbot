@@ -1,0 +1,12 @@
+langchain-community
+faiss-cpu
+sentence-transformers
+llama-cpp-python
+pypdf
+nltk
+pandas
+pytest
+giskard
+giskard[llm]
+streamlit
+logging
